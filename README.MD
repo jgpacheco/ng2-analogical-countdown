@@ -1,4 +1,5 @@
 # ng2-analogical-countdown
+[![](https://img.shields.io/badge/npm-v4.0.1-brightgreen.svg)](https://www.npmjs.com/package/ng2-analogical-countdown)
 
 ## Installation
 
