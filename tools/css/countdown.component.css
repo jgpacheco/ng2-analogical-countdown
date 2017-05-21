@@ -1,0 +1,20 @@
+.cd-container {
+    text-align: center;
+
+    margin: 2.5vh auto;
+    padding: 3vh 3vw;
+    border-radius: 5px;
+    max-width: 60vw;
+}
+
+.cd-container .cd-number {
+    max-width: 100%;
+    height: auto;
+    content: inline('./9.svg');
+    display: inline-block;
+}
+
+.cd-container .cd-separator {
+    vertical-align: top;
+    display: inline-block;
+}
