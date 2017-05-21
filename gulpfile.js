@@ -15,7 +15,6 @@ const buildFolder = path.join(rootFolder, 'build');
 const distFolder = path.join(rootFolder, 'dist');
 const toolsFolder = path.join(rootFolder, 'tools');
 
-
 gulp.task('base64', function () {
     return gulp.src(`${toolsFolder}/css/**/*.css`)
         .pipe(base64(`${toolsFolder}/css/assets`))
