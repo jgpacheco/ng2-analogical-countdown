@@ -1,6 +1,6 @@
 {
   "name": "ng2-analogical-countdown",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
@@ -26,7 +26,11 @@
   "bugs": {
     "url": "https://github.com/jgpacheco/ng2-analogical-countdown.git/issues"
   },
+  "directories": {
+    "example": "example"
+  },
   "devDependencies": {
+    "@angular/animations": "^4.1.0",
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
     "@angular/compiler-cli": "^4.0.0",
@@ -40,6 +44,7 @@
     "core-js": "^2.4.1",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
+    "gulp-base64-inline": "^1.0.3",
     "gulp-rollup": "^2.11.0",
     "jasmine-core": "~2.5.2",
     "jasmine-spec-reporter": "~3.2.0",

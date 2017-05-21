@@ -5,13 +5,21 @@ var gulp = require('gulp'),
   rollup = require('gulp-rollup'),
   del = require('del'),
   runSequence = require('run-sequence'),
-  inlineResources = require('./tools/gulp/inline-resources');
+  inlineResources = require('./tools/gulp/inline-resources'),
+  base64 = require('gulp-base64-inline');
 
 const rootFolder = path.join(__dirname);
 const srcFolder = path.join(rootFolder, 'src');
 const tmpFolder = path.join(rootFolder, '.tmp');
 const buildFolder = path.join(rootFolder, 'build');
 const distFolder = path.join(rootFolder, 'dist');
+const toolsFolder = path.join(rootFolder, 'tools');
+
+gulp.task('base64', function () {
+    return gulp.src(`${toolsFolder}/css/**/*.css`)
+        .pipe(base64(`${toolsFolder}/css/assets`))
+        .pipe(gulp.dest(`${toolsFolder}/css/assets`));
+});
 
 /**
  * 1. Delete /dist folder
