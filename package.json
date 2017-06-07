@@ -1,6 +1,7 @@
 {
   "name": "ng2-analogical-countdown",
-  "version": "0.1.1",
+  "version": "0.1.3",
+  "description": "Some kind of flip or analogical countdown for Angular 2 and above.",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",

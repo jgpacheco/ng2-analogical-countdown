@@ -18,7 +18,7 @@ const toolsFolder = path.join(rootFolder, 'tools');
 gulp.task('base64', function () {
     return gulp.src(`${toolsFolder}/css/**/*.css`)
         .pipe(base64(`${toolsFolder}/css/assets`))
-        .pipe(gulp.dest(`${toolsFolder}/css/assets`));
+        .pipe(gulp.dest(`${toolsFolder}/base64`));
 });
 
 /**
@@ -46,7 +46,6 @@ gulp.task('inline-resources', function () {
   return Promise.resolve()
     .then(() => inlineResources(tmpFolder));
 });
-
 
 /**
  * 4. Run the Angular compiler, ngc, on the /.tmp folder. This will output all

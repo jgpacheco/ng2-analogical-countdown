@@ -1,5 +1,6 @@
 # ng2-analogical-countdown
-[![](https://img.shields.io/badge/npm-v4.0.1-brightgreen.svg)](https://www.npmjs.com/package/ng2-analogical-countdown)
+[![NPM version][npm-version-image]][npm-url]
+[![MIT License][license-image]][license-url]
 
 ## Installation
 
@@ -35,3 +36,9 @@ Now you can use analogical-countdown directive in your Angular application:
 ## License
 
 MIT © [Jaime](mailto:jaime.glez.pacheco@gmail.com)
+
+[npm-url]: https://www.npmjs.com/package/ng2-analogical-countdown
+[npm-version-image]: https://img.shields.io/npm/v/npm.svg?style=flat
+
+[license-image]: https://img.shields.io/npm/l/express.svg?style=flat
+[license-url]: LICENSE
