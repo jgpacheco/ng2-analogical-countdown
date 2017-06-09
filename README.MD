@@ -1,6 +1,9 @@
 # ng2-analogical-countdown
 [![NPM version][npm-version-image]][npm-url]
 [![MIT License][license-image]][license-url]
+[![Build Status][travis-image]][travis-url]
+
+[![NPM][npm-stats-image]][npm-url]
 
 ## Installation
 
@@ -42,3 +45,9 @@ MIT © [Jaime](mailto:jaime.glez.pacheco@gmail.com)
 
 [license-image]: https://img.shields.io/npm/l/express.svg?style=flat
 [license-url]: LICENSE
+
+[travis-image]: https://travis-ci.org/jgpacheco/ng2-analogical-countdown.svg?branch=master
+[travis-url]: https://travis-ci.org/jgpacheco/ng2-analogical-countdown
+
+[npm-stats-image]: https://nodei.co/npm/ng2-analogical-countdown.png?downloads=true&downloadRank=true&stars=true
+[travis-url]: https://travis-ci.org/jgpacheco/ng2-analogical-countdown
