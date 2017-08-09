@@ -17,7 +17,7 @@ $ npm install ng2-analogical-countdown --save
 
 In order to use animation, please include Animation Module from `angular v4.x` to your project:
 
-```
+```typescript
     import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     import { CountDownModule } from 'ng2-analogical-countdown';
 
