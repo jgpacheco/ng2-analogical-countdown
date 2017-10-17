@@ -21,7 +21,10 @@
     "email": "jaime.glez.pacheco@gmail.com"
   },
   "keywords": [
-    "angular", "countdown", "flip", "analogical"
+    "angular",
+    "countdown",
+    "flip",
+    "analogical"
   ],
   "license": "MIT",
   "bugs": {
